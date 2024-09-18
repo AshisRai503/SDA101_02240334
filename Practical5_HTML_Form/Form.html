@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>College Seminar Registration</h1>
+    <form>
+        <fieldset>
+            <legend>Personal info</legend>
+        <p>
+            <label for="firstname">First Name:</label>
+        <input type="text" name="firstname" id="firstname" placeholder="Ashis" autocomplete="on" autofocus>
+        </p>
+        <p>
+            <label for="lastname">Last Name:</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Rai" autocomplete="on">
+        </p>
+        <p>
+            <label for="Date of Birth">Date of Birth</label>
+            <input type="date" required>
+        </p>
+        <p>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="Other">
+            <label for="other">Other</label>
+        </p>
+        <p>
+            <label for="Email">Enter Your Email:</label>
+            <input type="email" name="Email" id="Email" placeholder="Example@gmail.com">
+        </p>
+        <p>
+            <label for="password">Enter Your Password:</label>
+        <input type="password" name="password" id="password" placeholder="Password" required>
+        </p>
+        <p>
+            <label for="number">Enter Your number:</label>
+        <input type="tel" name="number" id="number" placeholder="975+" >
+        </p>
+        <p>
+            <label for="seminarTime">Preferred Seminar Time:</label>
+            <input type="time" name="seminarTime" required>
+    
+        </p>
+        <p>
+            <label for="meal">Meal Preference: </label>
+        <select name="meal" required>
+            <option value="Vegetarian">Vegetarian</option>
+            <option value="Non-Vegetarian">Non-Vegetarian</option>
+            <option value="Vegan">Vegan</option>
+        </select>
+        </p>
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>

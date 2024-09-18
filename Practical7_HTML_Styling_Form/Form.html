@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Form.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hostel Room Maintenance Form</h1>
+    <form>
+        <fieldset>
+            <legend>Personal info</legend>
+        <p>
+            <label for="firstname">First Name:</label>
+        <input type="text" name="firstname" id="firstname" placeholder="Ashis" autocomplete="on" autofocus>
+        </p>
+        <p>
+            <label for="lastname">Last Name:</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Rai" autocomplete="on">
+        </p>
+        <p>
+            <label for="Date of Birth">Date</label>
+            <input type="date" required>
+        </p>
+        <p>
+            <label for="Room">Room</label>
+            <input type="text" name="Room" id="Room" list="Room-list">
+            <datalist id="Room-list">
+                <option value="Room">H1A</option>
+                <option value="Room">H2A</option>
+                <option value="Room">H3A</option>  
+                <option value="Room">H4A</option>
+                <option value="Room">H5A</option>
+                <option value="Room">H6A</option>
+                <option value="Room">H7A</option>
+                <option value="Room">H8A</option>
+                <option value="Room">H9A</option>
+                <option value="Room">H10A</option>
+                <option value="Room">H11A</option>
+            </datalist>
+        </p>
+        <p>
+            <fieldset>
+                <legend>
+                    Type Of Issue
+                </legend>
+                    <p>
+                        <input type="radio" name="Issue" id="Issue" value="Issue">
+                        <label for="Issue">Electrical</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="Issue" id="Issue" value="Issue">
+                        <label for="Issue">Plumbing</label>
+                    </p>
+                    <p></p>
+                        <input type="radio" name="Issue" id="Issue" value="Issue">
+                        <label for="Issue">Furniture Maintenance</label>
+                    </p>
+                    <p></p>
+                        <input type="radio" name="Issue" id="Issue" value="Issue">
+                        <label for="Issue">Others</label>
+                    </p>
+                    
+            </fieldset>
+        </p>
+        <p>
+            <fieldset>
+                <legend>Description</legend>
+                <p>
+                    <label for="message">State Your Problem</label>
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Type Here"></textarea>
+                </p>
+            </fieldset>
+        </p>
+        <p>
+            
+                <legend>Urgency</legend>
+                <select name="urgent" id="issues" required class="input">
+                    <option value="immediate">Immediate</option>
+                    <option value="medium">Medium</option>
+                    <option value="low">Low</option>
+                </select><br><br>
+           
+        </p>
+
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
+    
+</body>
+</html>
