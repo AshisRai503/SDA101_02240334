@@ -1,4 +1,4 @@
-Choose a page from an online platform and replicate it in Figma, applying the concepts you've learned in class.
+1)Choose a page from an online platform and replicate it in Figma, applying the concepts you've learned in class.
 
 Figma Design:https://www.figma.com/design/Al18RyWKr6J7cQPXvNxblm/Practicle1_figma?node-id=0-1&t=e8KEoPpnS4vMntqs-1
 
