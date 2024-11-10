@@ -1,4 +1,4 @@
-1)Design few pages for your personal portfolio website in Figma, including responsive layouts and interactive prototyping.
+1. Design few pages for your personal portfolio website in Figma, including responsive layouts and interactive prototyping.
 
 Pages to Create:
 
