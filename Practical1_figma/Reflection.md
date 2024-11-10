@@ -25,12 +25,10 @@ Key Takeaways
 Challenges and Solutions
 
     Challenge: Mastering Auto Layout
-        Screenshot: [Insert Screenshot Here]
         Initially, I struggled with setting up Auto Layout correctly, as elements would overlap or misalign.
         Solution: I overcame this by exploring tutorials on Auto Layout, which helped me understand the constraints and padding options better.
 
     Challenge: Balancing Aesthetic and Usability
-        Screenshot: [Insert Screenshot Here]
         Creating a design that looked good while remaining easy to navigate was challenging.
         Solution: I received feedback from peers and iterated on the design to improve usability without compromising the aesthetic.
 
