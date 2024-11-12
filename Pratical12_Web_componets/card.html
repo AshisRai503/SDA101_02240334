@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Card Component</title>
+    <script src="card.js" defer></script>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-8">
+    <h1 class="text-3xl font-bold mb-6">Reusable Card Component</h1>
+    
+    <!-- Using the custom card element -->
+    <custom-card header="Card Title" footer="Card Footer" style="--bg-color: #f8fafc; --border-color: #d1d5db;">
+        <div slot="header" class="text-xl font-semibold text-blue-500">Header Slot Content</div>
+        <div slot="content" class="text-gray-800">
+            <p>This is the content area. You can put text, images, or other elements here.</p>
+            <img src="https://via.placeholder.com/300" alt="Placeholder Image" class="w-full rounded-lg shadow-md">
+        </div>
+        <div slot="footer" class="text-sm text-gray-500">This is a footer slot with custom content.</div>
+    </custom-card>
+</body>
+</html>

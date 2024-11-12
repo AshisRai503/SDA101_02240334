@@ -1,0 +1,108 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Form container styling */
+  form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Title styling */
+  h2 {
+    margin-right: -250px;
+    color: #333;
+    margin-bottom: 600px;
+  }
+  
+  /* Input field styling */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 0.5rem 0 1rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #0056b3;
+    outline: none;
+  }
+  
+  /* Error message styling */
+  .error {
+    color: #e74c3c;
+    font-size: 0.875em;
+    margin-top: 0.25rem;
+  }
+  
+  /* Success/valid input styling */
+  .valid {
+    color: #2ecc71;
+    font-size: 0.875em;
+    margin-top: 0.25rem;
+  }
+  
+  /* Submit button styling */
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  button.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  button:disabled:hover {
+    background-color: #ccc;
+  }
+  
+  /* Responsive design adjustments */
+  @media (max-width: 480px) {
+    form {
+      padding: 1.5rem;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      font-size: 0.95rem;
+    }
+  
+    button {
+      font-size: 0.95rem;
+    }
+  }
+  
